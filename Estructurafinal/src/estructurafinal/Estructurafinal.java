@@ -18,12 +18,7 @@ public class Estructurafinal {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-    JOptionPane.showMessageDialog(null, "Hola mundo");
-    JOptionPane.showMessageDialog(null, "Hola mundo");
-    JOptionPane.showMessageDialog(null, "Hola mundo");
-    JOptionPane.showMessageDialog(null, "Hola mundo");
-    
-    
+
     }
     
 }
