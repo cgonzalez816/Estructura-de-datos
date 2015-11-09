@@ -24,19 +24,9 @@ public class ProyectoFinal extends Object{
     
     int X;
     String[] nombre = new String[10];
+    String[] Variable = new String[4];
+    int cont = 0;
     
-    nombre[0] = "Ándres";
-     nombre[1] = "Allan";
-      nombre[2] = "Melissa";
-       nombre[3] = "Cristina";
-        nombre[4] = "Diego";
-         nombre[5] = "María";
-          nombre[6] = "Olger";
-           nombre[7] = "Pablo";
-            nombre[8] = "Juan";
-             nombre[9] = "Estefani";
-
-             
              
     System.out.println(" Digite El Numero de Cajeros ");
     System.out.println(" Mayor Que Cero y Menor a Cinco ")
@@ -50,8 +40,22 @@ public class ProyectoFinal extends Object{
         System.out.println(" El numero de cajeros es inferior al autorizados ")
     }
     
+    
+    nombre[0] = "Ándres";
+     nombre[1] = "Allan";
+      nombre[2] = "Melissa";
+       nombre[3] = "Cristina";
+        nombre[4] = "Diego";
+         nombre[5] = "María";
+          nombre[6] = "Olger";
+           nombre[7] = "Pablo";
+            nombre[8] = "Juan";
+             nombre[9] = "Estefani";
        
         
+
+        
+  
     
     }
     
