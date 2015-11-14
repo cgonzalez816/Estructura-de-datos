@@ -3,7 +3,7 @@
 // Uses a queue to simulate the waiting line of customers; each
 //    entry in the queue represents the time of arrival of a 
 //    customer in the line.  
-
+pablo
 import java.io.*;
 import structure.*;
 import com.mw.io.*;
