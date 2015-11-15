@@ -27,6 +27,9 @@ public class ProyectoFinal {
 
         
         System.out.print(" Ahora si Empezamos");
+        int a;
+        int B;
+        
         
   }
   
