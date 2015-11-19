@@ -12,9 +12,11 @@
  */
 package proyectofinal;
 
+
+import javax.swing.*; //Llama a todos los métodos de la librería javax.swing
 /**
  *
- * @Cesar Gonzalez Y Pablo Marin
+ * @author Cesar Gonzalez Y Pablo Marin
  */
 public class ProyectoFinal {
 
@@ -25,11 +27,11 @@ public class ProyectoFinal {
     public static void main(String[] args) {
         // TODO code application logic here
 
+        System.out.println(" STOY MAMANDO" );
+
         
-        System.out.print(" Ahora si Empezamos");
-        int a;
-        int B;
         
+     
         
   }
   
