@@ -80,7 +80,7 @@ public class ProyectoFinal {
             print("$...........      MEDIO DE CAJEROS EN EL BANCO       ...........$" + "\n");
             print("$...............................................................$" + "\n");
             print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$JM$$" + "\n");
-            print(">>> Digite el numero de cajeros disponibles (2-8) > ");
+            print(">>> Digite el numero de cajeros disponibles (2-10) > ");
             // Solicita Al Usuario Una Cantidad de Cajeros de 1 a 8 y El Tiempo De La Jornada Laboral
             c = LeerEntero();
             print("\n");
@@ -89,8 +89,8 @@ public class ProyectoFinal {
                     aux = 1;
                 } else {
                     aux = 0;
-                    // Cantidad De Cajeros
-                    print(">>> Digite una cantidad de cajeros entre 2 y 8 > ");
+                    // Restriccion Para que se digite entre 2 y 10
+                    print(">>> Digite una cantidad de cajeros entre 2 y 10 > ");
                     c = LeerEntero();
                     print("\n");
                 }
@@ -157,6 +157,7 @@ public class ProyectoFinal {
 
                                 tc = (seg0 - (seg - s));
                                 ctime.instime(x, tc);
+                                //Imprime Info Del Cajero e Info Del Cliente
                                 System.out.print("-- Cajero>>>(" + x + ") " + "Cliente >> " + f + "   ");
                                 print("0-0-0----( ");
                                 eterna.print();
