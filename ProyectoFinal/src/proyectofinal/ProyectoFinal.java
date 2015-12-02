@@ -37,7 +37,7 @@ public class ProyectoFinal {
     }
 
     public static String LeerCadena() {
-        // Lee el Tiempo Indicado por el Usuario
+        // Lee el Tiempo Indicado por el Usuario U Opciones S/N
         String línea = new String("");
         try {
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -85,7 +85,7 @@ public class ProyectoFinal {
             c = LeerEntero();
             print("\n");
             do {
-                if ((c >= 2) && (c <= 8)) {
+                if ((c >= 2) && (c <= 10)) {
                     aux = 1;
                 } else {
                     aux = 0;
@@ -119,7 +119,6 @@ public class ProyectoFinal {
 
             do {
                 // Retorna Un Punto Flotante, un número pseudo-aleatorio dentro del rango [0, 1)* 10000000
-                // Asigna Ramdon Un Usuario Al Cajero
                 su = (Math.random() * 10000000);
                 num = (int) (su);
                 f = eterna.sacar();
@@ -218,7 +217,7 @@ public class ProyectoFinal {
             print("\n");
             print("$$$$$$$$$$$$$$$$$$$$$- R E P O R T E -$$$$$$$$$$$$$$$$$$$$$" + "\n");
             print("\n");
-
+            //Imprime el total de clientes Atendidos
             System.out.print("Se atendio a " + nus + " usuarios" + "\n");
             print("\n");
             print("=============================================================================================");
@@ -227,23 +226,24 @@ public class ProyectoFinal {
                 act = ctime.busca(i);
                 ca = cajeros.busca(i);
                 promt = (act / (ca + 2));
-
+                //Imprime la cantida de clientes atendidos por cada cajero
                 System.out.print("El cajero " + i + " atendio a " + ca + " usuarios, los cuales tuvieron los turnos ");
                 cajeros.usca(i);
                 print("\n");
+                //Imprime el promedio de demora de cada cajero
                 System.out.print("En promedio se demoro " + promt + " segundos con cada cliente");
                 print("\n");
                 print("=============================================================================================");
                 print("\n");
                 print("\n");
             }
-
+            //Imprime el promedio de cada cajero
             System.out.print("El promedio de usuarios por cajero fue de: " + prom + "\n");
             print("\n");
 
             print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$JM$$" + "\n");
             print("\n");
-
+            //Opcion S/N    
             print("Desea simular de nuevo el proceso? S/N");
             op = LeerCadena();
             print("\n");
