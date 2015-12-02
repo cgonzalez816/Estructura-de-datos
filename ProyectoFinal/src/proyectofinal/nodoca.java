@@ -18,7 +18,7 @@ public class nodoca {
     nodoca sig;
 
     public nodoca(int i, int da) {
-        // Asigna El Valor de i a cajero, dato1 o Pasa a Siguiente
+        // Asigna El Valor de i a cajero, dato1 y sig
         cajero = i;
         dato1 = da;
         sig = null;

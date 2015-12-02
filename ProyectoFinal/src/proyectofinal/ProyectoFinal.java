@@ -81,7 +81,7 @@ public class ProyectoFinal {
             print("$...............................................................$" + "\n");
             print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$JM$$" + "\n");
             print(">>> Digite el numero de cajeros disponibles (2-10) > ");
-            // Solicita Al Usuario Una Cantidad de Cajeros de 1 a 8 y El Tiempo De La Jornada Laboral
+            // Solicita Al Usuario Una Cantidad de Cajeros de 2 a 10 y El Tiempo De La Jornada Laboral
             c = LeerEntero();
             print("\n");
             do {
@@ -100,6 +100,7 @@ public class ProyectoFinal {
             print(">>> Digite el tiempo (minutos) que durara la jornada de atencion a clientes > ");
             t = LeerEntero();
             print("\n");
+            //Tiempo Asignado Al Cliente
             tius = t * 60;
 
             do {
@@ -186,10 +187,10 @@ public class ProyectoFinal {
             } while (s <= tius);
 
             if (s >= tius) {
-                print("*************** | Fin de la jornada, el banco ha cerrado | **************" + "\n");
+                print("*************** |    Fin de la jornada,    | **************" + "\n");
             }
             print("\n");
-
+            //Limpia la fila e imprime los ultimos que van saliendo 
             do {
                 x = 1;
                 do {
@@ -223,11 +224,12 @@ public class ProyectoFinal {
             print("\n");
             print("=============================================================================================");
             print("\n");
+            //Busca e Imprime la cantida de clientes atendidos por cada cajero
             for (i = 1; i <= c; i++) {
                 act = ctime.busca(i);
                 ca = cajeros.busca(i);
                 promt = (act / (ca + 2));
-                //Imprime la cantida de clientes atendidos por cada cajero
+
                 System.out.print("El cajero " + i + " atendio a " + ca + " usuarios, los cuales tuvieron los turnos ");
                 cajeros.usca(i);
                 print("\n");
@@ -248,7 +250,7 @@ public class ProyectoFinal {
             print("Desea simular de nuevo el proceso? S/N");
             op = LeerCadena();
             print("\n");
-
+            // Si op.equals = S o s empieza de cero
         } while (op.equals("S") || op.equals("s"));
 
     }

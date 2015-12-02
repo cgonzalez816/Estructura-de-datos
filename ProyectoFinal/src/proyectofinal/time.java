@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package proyectofinal;
-
 /**
  *
  * @author Cesar Gonzalez e ivan Arroyo
@@ -36,8 +35,7 @@ public class time {
 		    }	
 		  
 	}	
-	
-	public int busca(int i)
+	        public int busca(int i)
 	{       //Asigna El Tiempo Al Cajero
 		nodotime aux= null;
  		aux=top;
