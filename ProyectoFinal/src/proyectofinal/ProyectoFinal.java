@@ -65,6 +65,7 @@ public class ProyectoFinal {
         float min;
 
         do {
+            // Nuevo Tiempo, Coloca Cajeros, Inicia La Cola
             time ctime = new time();
             colaca cajeros = new colaca();
             cola eterna = new cola();
@@ -118,6 +119,7 @@ public class ProyectoFinal {
 
             do {
                 // Retorna Un Punto Flotante, un número pseudo-aleatorio dentro del rango [0, 1)* 10000000
+                // Asigna Ramdon Un Usuario Al Cajero
                 su = (Math.random() * 10000000);
                 num = (int) (su);
                 f = eterna.sacar();

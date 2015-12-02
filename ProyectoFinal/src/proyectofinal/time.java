@@ -7,16 +7,18 @@ package proyectofinal;
 
 /**
  *
- * @author treznor
+ * @author Cesar Gonzalez e ivan Arroyo
  */
 public class time {
+        // Cima Del Nodo
     	nodotime top;
 	public time()
 	{
+            // 
 	 	top=null;
 	}	
 	public void instime(int c,int t1)
-	{  
+	{       // Inicia El Tiempo 
 		nodotime nuevo=new nodotime(c,t1); 
 	  	nodotime aux=null;
 	  	aux=top;
@@ -36,7 +38,7 @@ public class time {
 	}	
 	
 	public int busca(int i)
-	{
+	{       //Asigna El Tiempo Al Cajero
 		nodotime aux= null;
  		aux=top;
  		int acum=0;

@@ -7,7 +7,7 @@ package proyectofinal;
 
 /**
  *
- * @author treznor
+ * @author Cesar Gonzalez e ivan Arroyo
  */
 public class nodotime {
         // Declaracion De Las Variables 
