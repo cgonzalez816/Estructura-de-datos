@@ -10,6 +10,7 @@ package proyectofinal;
  * @author treznor
  */
 public class nodotime {
+        // Declaracion De Las Variables 
     	int cajero;
 	int time1;
 

@@ -7,65 +7,62 @@ package proyectofinal;
 
 /**
  *
- * @author treznor
+ * @author Cesar Gonzalez e ivan Arroyo
  */
 public class cola {
-    
-	nodo primero, ultimo;
-	
-	public cola()
-	{
-		primero=null;
-		ultimo=null;
-		
-	}
-	
-	public void insertar(int d)
-	{
-		nodo nuevo=new nodo(d);
-		
-		if(primero==null)
-		{
-			primero=nuevo;
-			ultimo=nuevo;
-		}
-		else
-		{
-			ultimo.siguiente=nuevo;
-			ultimo=nuevo;
-		}
-	}
-	
-	public int sacar()
-	{
-		int x;
-		x=primero.dato;
-	    primero=primero.siguiente;
-	    return x;
-	}
-	
-	public boolean vacia()
-	{
-		if(primero==null)
-			return true;
-		else
-			return false;
-	}
-	
-	public void print()
-	{
-		nodo n=primero;
-		while(n!=null)
-		{
-			System.out.print(n.dato);
-			if (n.siguiente!=null)
-			{
-				System.out.print("*<");
-			}
-		  n=n.siguiente;
-		  
-		}
-		System.out.print("\n");
-	}
-	
+// 
+
+    nodo primero, ultimo;
+
+    public cola() {
+        primero = null;
+        ultimo = null;
+
+    }
+
+    public void insertar(int d) {
+        // Inserta El Dato Al Nodo
+        nodo nuevo = new nodo(d);
+        // Si El Primero Esta Basio Ingrasa El Dato 
+        if (primero == null) {
+            primero = nuevo;
+            ultimo = nuevo;
+        } else {
+            ultimo.siguiente = nuevo;
+            ultimo = nuevo;
+        }
+    }
+
+    public int sacar() {
+        // Saca El Dato Que Esta En El Primer Nodo
+        int x;
+        x = primero.dato;
+        primero = primero.siguiente;
+        return x;
+    }
+
+    public boolean vacia() {
+        // Booleano Que Verifica Si Esta Vacia 
+        if (primero == null) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public void print() {
+        // Si El Nodo No Esta Vacio Imprime ElTotal De Los Clientes Atendidos
+        nodo n = primero;
+        while (n != null) {
+            System.out.print(n.dato );
+            if (n.siguiente != null) {
+                System.out.print("*<");
+            }
+            // Pasa Al Siguiente 
+            n = n.siguiente;
+
+        }
+        System.out.print("\n");
+    }
+
 }

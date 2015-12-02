@@ -214,7 +214,7 @@ public class ProyectoFinal {
             print("\n");
             prom = nus / c;
             print("\n");
-            print("$$$$$$$$$$$$$$$$$$$$$- BANCO MONEY-FAST: R E P O R T E -$$$$$$$$$$$$$$$$$$$$$" + "\n");
+            print("$$$$$$$$$$$$$$$$$$$$$- R E P O R T E -$$$$$$$$$$$$$$$$$$$$$" + "\n");
             print("\n");
 
             System.out.print("Se atendio a " + nus + " usuarios" + "\n");

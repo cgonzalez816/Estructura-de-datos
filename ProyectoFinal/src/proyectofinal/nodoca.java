@@ -7,19 +7,20 @@ package proyectofinal;
 
 /**
  *
- * @author treznor
+ * @author Cesar Gonzalez e ivan Arroyo
  */
 public class nodoca {
+
+    // Variables Dato1 y Cajero
     int dato1;
-	int cajero;
-	
-	nodoca sig;
-	public nodoca(int i,int da)
-	{
-		cajero=i;
-		dato1=da;
-		sig=null;
-	}
-    
-    
+    int cajero;
+
+    nodoca sig;
+
+    public nodoca(int i, int da) {
+        // Asigna El Valor de i a cajero, dato1 o Pasa a Siguiente
+        cajero = i;
+        dato1 = da;
+        sig = null;
+    }
 }
