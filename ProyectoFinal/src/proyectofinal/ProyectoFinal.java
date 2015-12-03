@@ -158,7 +158,7 @@ public class ProyectoFinal {
 
                                 tc = (seg0 - (seg - s));
                                 ctime.instime(x, tc);
-                                //Imprime Info Del Cajero e Info Del Cliente
+                                //Imprime Info Del Cajero e Info Del Cliente en la pantalla cuando se corre el programa
                                 System.out.print("-- Cajero>>>(" + x + ") " + "Cliente >> " + f + "   ");
                                 print("0-0-0----( ");
                                 eterna.print();
