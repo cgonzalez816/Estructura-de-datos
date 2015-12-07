@@ -23,7 +23,7 @@ public class cola {
     public void insertar(int d) {
         // Inserta El Dato Al Nodo
         nodo nuevo = new nodo(d);
-        // Si El Primero Esta Basio Ingrasa El Dato 
+        // Si El Primero Esta vacio Ingrasa El Dato 
         if (primero == null) {
             primero = nuevo;
             ultimo = nuevo;

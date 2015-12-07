@@ -97,7 +97,7 @@ public class ProyectoFinal {
             } while (aux == 0);
 
             // Cantidad De Tiempo De La Jornada Laboral
-            print(">>> Digite el tiempo (minutos) que durara la jornada de atencion a clientes > ");
+            print(">>> Digite el tiempo (horas) que durara la jornada de atencion a clientes > ");
             t = LeerEntero();
             print("\n");
             //Tiempo Asignado Al Cliente
@@ -244,7 +244,7 @@ public class ProyectoFinal {
             System.out.print("El promedio de usuarios por cajero fue de: " + prom + "\n");
             print("\n");
 
-            print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$JM$$" + "\n");
+            print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" + "\n");
             print("\n");
             //Opcion S/N    
             print("Desea simular de nuevo el proceso? S/N");
